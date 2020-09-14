@@ -113,9 +113,14 @@ header, footer, section {
 /* STYLES */
 
 div.shell {
-  display: block;
+  display: inline;
   width: 800px;
   margin: 0 auto;
+}
+
+div.sidebar {
+    display: inline;
+    width: 100px;
 }
 
 a#forkme_banner {
