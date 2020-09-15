@@ -1,4 +1,4 @@
-<ul class="sidebar inline">
+<ul class="sidebar">
     {% for category in site.categories %}
     <div><a href="{{ site.baseurl  }}/category/{{ category[0]  }}">{{ category[0] | capitalize  }} <span> ({{ category[1].size  }}) </span></a></div>
     {% endfor %}
