@@ -21,10 +21,12 @@
 
     <body>
         {% include header.html %}
-        <div class="main">
-            <section id="main_content">
-                {{ content }}
-            </section>
+        <div class="layout">
+            <div class="main">
+                <section id="main_content">
+                    {{ content }}
+                </section>
+            </div>
         </div>
         <div class="footer">
             {% include footer.html %}
